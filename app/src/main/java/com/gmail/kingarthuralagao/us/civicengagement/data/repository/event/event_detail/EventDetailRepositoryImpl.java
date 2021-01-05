@@ -1,24 +1,11 @@
 package com.gmail.kingarthuralagao.us.civicengagement.data.repository.event.event_detail;
 
-import android.util.Log;
-
-import androidx.annotation.NonNull;
-
 import com.gmail.kingarthuralagao.us.civicengagement.data.Status;
 import com.gmail.kingarthuralagao.us.civicengagement.domain.repository_interfaces.event.event_detail.EventDetailRepository;
-import com.gmail.kingarthuralagao.us.civicengagement.domain.repository_interfaces.event.events_view.EventsViewRepository;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.google.firebase.firestore.QuerySnapshot;
 import com.google.firebase.firestore.WriteBatch;
-
-import java.util.List;
 
 import io.reactivex.rxjava3.core.Observable;
 
